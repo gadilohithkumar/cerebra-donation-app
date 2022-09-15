@@ -1,0 +1,44 @@
+.dropdown
+{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top:  1rem;
+
+}
+.dropdown-menu
+{
+    width: 20rem;
+    text-align: center; 
+    color: black;
+    background: lavenderblush;
+    position: relative;
+    cursor: pointer;
+    padding: 2rem;
+}
+.dropdown-menu :hover
+{
+    color: white;
+    background: grey;
+}
+.dropdown-list
+{
+    border: 1px solid transparent;
+    position: absolute;
+    bottom:auto;
+    left: 0;
+    width:89%;
+    background: gray;
+    list-style: none;
+}
+
+.dropdown-list:hover
+{
+    border: 1px solid white;  
+}
+.cloths
+{
+    text-decoration: none;
+    font-size: 20px;
+}
