@@ -15,6 +15,7 @@ const Clothes = () => {
     //fetch method  
     // http://localhost:8080/donations/add
     // https://test-api-b094d-default-rtdb.firebaseio.com/data.json
+    // "http://localhost:9000/donations/add"
  
     if(data.name==0 && data.age==0)
     {
@@ -57,10 +58,10 @@ const Clothes = () => {
       alert("Name Field length Must Greater then 3");  
     }
     else
-    {
-      fetch("http://localhost:8080/donations/add",{
+    { 
+      fetch("https://test-api-b094d-default-rtdb.firebaseio.com/data.json",{ 
         method:'post',  
-        body:JSON.stringify(data), 
+        body:JSON.stringify(data),  
          headers:
         {
           "Content-type":"application/json; charset=UTF-8"
