@@ -59,7 +59,7 @@ const Clothes = () => {
     }
     else
     { 
-      fetch("https://test-api-b094d-default-rtdb.firebaseio.com/data.json",{ 
+      fetch("http://ec2-3-111-188-123.ap-south-1.compute.amazonaws.com:9000/donations/add",{ 
         method:'post',  
         body:JSON.stringify(data),  
          headers:
