@@ -85,6 +85,6 @@ const Clothes = () => {
 </div> 
   )
 }
-
+ 
 export default Clothes
  
